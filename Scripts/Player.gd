@@ -4,7 +4,7 @@ onready var Camera = $Pivot/Camera
 var Bullet = preload("res://Scenes/Bullet.tscn")
 
 var velocity = Vector3()
-var gravity = -9.8
+var gravity = -12
 var speed = 8
 var mouse_sensitivity = 0.002
 var mouse_range = 1.2
@@ -49,5 +49,4 @@ func _unhandled_input(event):
 	if event.is_action_pressed("shoot"):
 		var b = Bullet.instance()
 		b._start($Pivot/Muzzle.global_transform)
-		print("shooting")
 		get_node("/root/Game/Bullets").add_child(b)

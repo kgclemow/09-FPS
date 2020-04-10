@@ -1,8 +1,10 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://Scripts/Player.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/Rocket.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Scripts/Game.gd" type="Script" id=3]
+[ext_resource path="res://Scenes/Enemy.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scripts/Enemies.gd" type="Script" id=5]
 
 [sub_resource type="ConcavePolygonShape" id=1]
 data = PoolVector3Array( 15, 0, 15, -15, 0, 15, 15, 0, -15, -15, 0, 15, -15, 0, -15, 15, 0, -15 )
@@ -25,7 +27,6 @@ script = ExtResource( 3 )
 shape = SubResource( 1 )
 
 [node name="Ground" type="MeshInstance" parent="Ground"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00603223, -0.00631797, 0.0043323 )
 mesh = SubResource( 2 )
 material/0 = null
 
@@ -75,3 +76,30 @@ color = Color( 0.960784, 0.847059, 0.847059, 0.219608 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Enemies" type="Spatial" parent="."]
+script = ExtResource( 5 )
+
+[node name="Enemy" parent="Enemies" instance=ExtResource( 4 )]
+transform = Transform( -4.88762e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -4.88762e-08, 10, 0.38, 0 )
+
+[node name="Enemy2" parent="Enemies" instance=ExtResource( 4 )]
+transform = Transform( -0.259808, 0, 0.15, 0, 0.3, 0, -0.15, 0, -0.259808, 7, 0.38, -8 )
+
+[node name="Enemy3" parent="Enemies" instance=ExtResource( 4 )]
+transform = Transform( 0.0776457, 0, -0.289778, 0, 0.3, 0, 0.289778, 0, 0.0776457, 12, 0.38, 12 )
+
+[node name="Enemy4" parent="Enemies" instance=ExtResource( 4 )]
+transform = Transform( -4.88762e-08, 0, -0.3, 0, 0.3, 0, 0.3, 0, -4.88762e-08, -5, 0.38, 5 )
+
+[node name="Enemy5" parent="Enemies" instance=ExtResource( 4 )]
+transform = Transform( 0.295442, 0, -0.0520945, 0, 0.3, 0, 0.0520945, 0, 0.295442, -14, 0.38, 14 )
+
+[node name="Enemy6" parent="Enemies" instance=ExtResource( 4 )]
+transform = Transform( 0.229813, 0, 0.192836, 0, 0.3, 0, -0.192836, 0, 0.229813, -10, 0.38, -10 )
+
+[node name="Enemy7" parent="Enemies" instance=ExtResource( 4 )]
+transform = Transform( -0.0520945, 0, -0.295442, 0, 0.3, 0, 0.295442, 0, -0.0520945, -12, 0.38, -7 )
+
+[node name="Enemy8" parent="Enemies" instance=ExtResource( 4 )]
+transform = Transform( 0.0520944, 0, 0.295442, 0, 0.3, 0, -0.295442, 0, 0.0520944, -2, 0.38, -7 )

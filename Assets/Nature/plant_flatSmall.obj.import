@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/plant_flatSmall.obj-794af1a3db3d1f4caaaa595717da326b.mesh"
+
+[deps]
+
+files=[ "res://.import/plant_flatSmall.obj-794af1a3db3d1f4caaaa595717da326b.mesh" ]
+
+source_file="res://Assets/Nature/plant_flatSmall.obj"
+dest_files=[ "res://.import/plant_flatSmall.obj-794af1a3db3d1f4caaaa595717da326b.mesh", "res://.import/plant_flatSmall.obj-794af1a3db3d1f4caaaa595717da326b.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

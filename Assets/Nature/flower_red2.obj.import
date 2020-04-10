@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/flower_red2.obj-b8b4dcd6b15f8dfb6d5384a5a90f10ae.mesh"
+
+[deps]
+
+files=[ "res://.import/flower_red2.obj-b8b4dcd6b15f8dfb6d5384a5a90f10ae.mesh" ]
+
+source_file="res://Assets/Nature/flower_red2.obj"
+dest_files=[ "res://.import/flower_red2.obj-b8b4dcd6b15f8dfb6d5384a5a90f10ae.mesh", "res://.import/flower_red2.obj-b8b4dcd6b15f8dfb6d5384a5a90f10ae.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
