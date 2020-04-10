@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/machinegun.obj-71d7812ec737a33d40e7c832e93e4f70.scn"
+path="res://.import/Enemy.glb-ac4004273a87175044c249e0ed24ab4e.scn"
 
 [deps]
 
-source_file="res://Assets/machinegun.obj"
-dest_files=[ "res://.import/machinegun.obj-71d7812ec737a33d40e7c832e93e4f70.scn" ]
+source_file="res://Assets/Enemy.glb"
+dest_files=[ "res://.import/Enemy.glb-ac4004273a87175044c249e0ed24ab4e.scn" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/ground_dirt.obj-230327898f9d30964d32b62dae18c6cb.scn"
+path="res://.import/ground_dirt.obj-e4941c12794d5d668d6ab845318ca3c6.scn"
 
 [deps]
 
-source_file="res://Assets/Nature/ground_dirt.obj"
-dest_files=[ "res://.import/ground_dirt.obj-230327898f9d30964d32b62dae18c6cb.scn" ]
+source_file="res://Assets/ground_dirt.obj"
+dest_files=[ "res://.import/ground_dirt.obj-e4941c12794d5d668d6ab845318ca3c6.scn" ]
 
 [params]
 
