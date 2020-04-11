@@ -1,0 +1,19 @@
+[gd_resource type="Environment" load_steps=3 format=2]
+
+[ext_resource path="res://Assets/sun shine in forrest.jpg" type="Texture" id=1]
+
+[sub_resource type="PanoramaSky" id=1]
+panorama = ExtResource( 1 )
+
+[resource]
+background_mode = 3
+background_sky = SubResource( 1 )
+background_color = Color( 0.419608, 0.4, 0.333333, 0.121569 )
+background_energy = 0.94
+ambient_light_color = Color( 0.219608, 0.129412, 0.85098, 1 )
+ambient_light_energy = 0.22
+ambient_light_sky_contribution = 0.8
+tonemap_mode = 3
+tonemap_exposure = 0.76
+tonemap_white = 1.2
+ss_reflections_enabled = true
