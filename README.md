@@ -1,2 +1,3 @@
 # Project-Template-Godot
-A default Godot project template for MSCH-C220
+
+This is a project for C220 Game Technology at Indiana University. This is the first attempt at a 3D first person shooter game in Godot. The game consists of a user controlled player using the WASD to move, spacebar to jump, and the mouse to change perspective. The player also shooter by clicking the mouse. There is an AI state machine agent in the enemies which scans until finding the player and shooting an attack. The game takes place in a forrest with premade terrain objects while the Enemy Mesh was made using Blender. The point of the game is to raise your score by destroying the enemies before your health deteriorates too much. 
