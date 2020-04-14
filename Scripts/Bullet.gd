@@ -22,8 +22,11 @@ func _on_Bullet_body_entered(body):
 	if body is StaticBody:
 		queue_free()
 	if body.name == "Enemy":
+		print(body.health)
 		body.take_damage(damage)
 		queue_free()
+	if body is Spatial:
+			queue_free()
 
 func _on_Timer_timeout():
 	queue_free()

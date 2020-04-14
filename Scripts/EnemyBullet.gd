@@ -1,6 +1,6 @@
 extends Area
 
-var speed = 15
+var speed = 10
 var damage = 1
 var velocity = Vector3()
 
@@ -9,7 +9,7 @@ func _ready():
 
 func _start(start_from):
 	transform = start_from
-	velocity = transform.basis.z * speed
+	velocity = transform.basis.x * speed
 
 func _physics_process(delta):
 	transform.origin += velocity * delta
